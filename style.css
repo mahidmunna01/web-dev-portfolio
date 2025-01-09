@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background: url(developer.png), url(header_bg.png);
+  background-repeat: no-repeat;
+  background-position: center left, bottom right;
+  padding-top: 40px;
+  background-color: #FFF8F3;
+}
+
+/* Navigation Design */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% 10%;
+}
+
+nav h3{
+  font-size: 45px;
+  color: #181818;
+}
+.dark-color{
+  color:#181818;
+}
+.btn-color{
+  color:white;
+  background-color: #FD6E0A;
+  padding: 15px 35px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-wrap: nowrap;
+}
+.btn2-color{
+  color:#FD6E0A;
+  background-color: #FFF8F3;
+}
+nav h3 span{
+  color: #FD6E0A;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+nav ul li{
+  margin-right: 45px;
+}
+nav ul li a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/* Banner Design  */
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 5% 0% 10%;
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner-welcome{
+  font-size: 45px;
+}
+.banner-title{
+  font-size: 85px;
+}
+.banner-description{
+  font-size: 28px;
+  color: 757575;
+  padding-right: 20%;
+}
+.banner-profile-pic{
+  width: 580px;
+}
+.banner-content button{
+  margin-right: 20px;
+}
+
+/* about section */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about{
+  background-color: #FFF8F3;
+  text-align: center;
+  padding: 120px 130px;
+  margin: 130px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.about-title{
+  font-size: 35px;
+  color: #181818;
+}
+.about-description{
+ font-size: 18px;
+ color: #757575;
+}
+.about-items p{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.about-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Skill Technology section */
+.skill-info{
+  padding: 30px 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:40px
+}
+
+.technology-skill{
+  display: flex;
+  text-align: left;
+  gap: 20px;
+  padding: 30px 0px;
+}
+.tech{
+  padding: 20px 50px 20px 20px;
+  background-color: rgb(246, 243, 243);
+  border-radius: 5px;
+}
+.tech h1{
+ font-size: 20px;
+}
+.tech p{
+  font-size: 16px;
+}
+.tech h1,
+.tech p{
+  margin-top: 20%;
+}
