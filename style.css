@@ -1,7 +1,18 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
 *{
   margin: 0;
   padding: 0;
 }
+
 .header{
   background: url(developer.png), url(header_bg.png);
   background-repeat: no-repeat;
@@ -33,10 +44,12 @@ nav h3{
   border: 1px solid;
   border-radius: 5px;
   text-wrap: nowrap;
+  cursor: pointer;
 }
 .btn2-color{
   color:#FD6E0A;
   background-color: #FFF8F3;
+  cursor: pointer;
 }
 nav h3 span{
   color: #FD6E0A;
@@ -154,5 +167,56 @@ main{
 }
 .tech h1,
 .tech p{
-  margin-top: 20%;
+  margin-top: 10%;
+}
+
+/* Resume Section */
+.resume div h1{
+  text-align: center;
+}
+.education-degree{
+  font-size: 30px;
+  font-weight: bold;
+  color: #FD6E0A;
+}
+.degree{
+  font-size: 25px;
+  color: #757575;
+  color: crimson;
+}
+
+.institution{
+  font-size: 20px;
+  font-weight: 900;
+  color: #757575;
+}
+.degree-description{
+  color: #757575;
+  font-size: 16px;
+}
+
+.Education-part{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+.resume{
+  margin: 130px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.border-bottom{
+  border-bottom: 2px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
 }
