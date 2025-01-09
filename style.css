@@ -197,8 +197,6 @@ main{
 
 .Education-part{
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-template-columns: auto auto;
   gap: 15px;
 }
@@ -219,4 +217,70 @@ main{
   flex-direction: column;
   gap: 20px;
   padding-bottom: 20px;
+}
+
+
+
+
+/* Footer Part Design */
+footer{
+  background-color: #FFF8F3;
+}
+.footer-section-description{
+  padding-right: 20%;
+}
+.footer-section{
+ display: flex;
+ justify-content: center;
+ max-width: 1140px;
+ margin: 0 auto;
+ padding: 120px 130px;
+}
+.left-column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-column{
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+
+}
+.right-column form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form input{
+  padding: 20px 15px;
+  border-radius: 7px;
+  border: none;
+}
+::placeholder{
+  font-size: 18px;
+}
+form textarea{
+  padding: 20px 15px;
+  border-radius: 7px;
+  border: none;
+  resize: none;
+}
+.footer-section-title {
+  text-wrap: nowrap;
+}
+.fa-brands{
+  margin-right: 15px;
+  font-size: 25px;
+  color: #FD6E0A;
+}
+.copyright{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.copyright a{
+  text-decoration: none;
+  color: #FD6E0A;
+  font-weight: bold;
 }
