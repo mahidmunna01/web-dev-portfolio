@@ -1,0 +1,64 @@
+@media screen and (max-width:576px) {
+ nav,.banner{
+  flex-direction: column;
+  margin:0px;
+ }
+ nav ul {
+  display: none;
+ }
+ .banner-welcome{
+  font-size: 20px;
+  text-align: center;
+ } 
+ .banner-title, .about-title{
+  font-size: 30px;
+  text-align: center;
+ }
+ .banner-description{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 30px;
+ }
+ .banner-profile-pic{
+  width: 100%;
+  margin-bottom: 10px;
+ }
+.banner-content button{
+  font-size: 15px;
+}
+.banner{
+  flex-direction: column-reverse;
+  padding-bottom: 5%;
+}
+.banner-btn{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 10px;
+}
+.footer-section, .about-item, .skill-info,.technology-skill{
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.about, .resume div h1{
+  padding: 10px 30px;
+  
+}
+.about-description{
+  margin-bottom: 5%;
+}
+.Education-part{
+grid-template-columns: auto;
+padding: 0 30px;
+}
+.footer-section-title{
+  text-align: left;
+  margin-top: 5%;
+}
+.copyright{
+  font-size: 12px;
+  padding: 10px 30px;
+  text-align: left;
+  background-color: #FFF8F3;
+}
+}
